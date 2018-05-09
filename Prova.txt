@@ -1,0 +1,4 @@
+média das notas -- básico, a la prova de alg da malga 
+Maior dos 3 números -- básico, a la prova de alg da malga 
+Pedir do usuário os segundos e informar que horas, minutos e segundos são, -- levemente intermediario, a la prova de alg2 da malga
+Calcular quantas letras a , e , i, o, u, tem na palavra tal -- difícil, a la trab de java web
