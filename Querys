@@ -102,11 +102,31 @@ having count(*) > 1
 
 --Media dos holerites entre o periodo de calculo 201701 e 2018014 
 
-select idf_empregado,idf_periodo_calculo, AVG(Vlr_Holerite) as media
+select idf_FILIAL, AVG(Vlr_Holerite) as media
 from TAB_Holerite
 where Idf_Periodo_calculo between 201701 and 201804
 --and Idf_Tipo_Folha = 1 or Idf_Tipo_Folha = 5 
-group by idf_empregado,idf_periodo_calculo,Vlr_Holerite
+group by idf_FILIAL
+
+----------------------------------------------------------------------------------------------------------------
+
+--Alterando numero comercial 
+
+Update TAB_Filial
+set Num_Comercial= 33333333
+where raz_social like '%nes%bebi%alim%'
+and Num_Comercial is not null
+
+-----------------------------------------------------------------------------------------------------------------
+
+--Select para ver se realmente alterou o numero
+
+select * from TAB_Filial
+where raz_social like '%nes%bebi%alim%'
+and Num_Comercial = 33333333
+
+------------------------------------------------------------------------------------------------------------------
+
 
 
 
