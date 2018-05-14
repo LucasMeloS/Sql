@@ -136,7 +136,15 @@ BEGIN
 END
 GO
 
---------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
+
+--Exists usado para testar a existencia de outra subquery
+
+SELECT Nme_Empresa
+FROM Tab_Holerite
+WHERE EXISTS (SELECT Num_Matricula FROM TAB_Empregado WHERE Idf_holerite = tab_holerite.Idf_holerite AND Idf_Tipo_Folha < 4);
+
+-----------------------------------------------------------------------------------------------------------
 
 
 
