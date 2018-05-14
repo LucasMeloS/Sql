@@ -127,7 +127,26 @@ and Num_Comercial = 33333333
 
 ------------------------------------------------------------------------------------------------------------------
 
+-- Quando feita a alteração da razao social da nestle, que se encontra no num_cnpj citado, o trigger rodará
 
+CREATE TRIGGER TGR_TAB_Filial
+ON TAB_Filial
+FOR INSERT, UPDATE
+AS
+BEGIN
+   
+	DECLARE @nome VARCHAR(200)
+	--SET @nome = ' Rh '
+    
+    SELECT @nome = raz_social FROM INSERTED
+
+    UPDATE TAB_FILIAL SET raz_social = 'Employer'
+	WHERE Num_CNPJ = 33062464000181
+	
+END
+Go
+
+--------------------------------------------------------------------------------------------------------------------
 
 
 
