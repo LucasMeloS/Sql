@@ -1,18 +1,6 @@
  -----------------------------------------------------------------------------------------------
 
-select * from (
-				select sub.Idf_Empregado, count(*) as rep 
-				from (
-						select Idf_Empregado from TAB_Empregado
-						union all
-						select Idf_Empregado from TAB_Salario
-						) as sub
-				where Idf_Empregado between 3900 and 3910
-				group by Idf_Empregado
-				) as t
-where t.rep between 30 and 40 
- 
- -----------------------------------------------------------------------------------------------
+--Fazer o union all de duas tabelas, fazer a contagem dos repetidos, e selecionar os repetiddos entre 30 e 40
 
 select sub.Idf_Empregado, count(*) as rep 
 from (
@@ -25,6 +13,8 @@ group by Idf_Empregado
 having count(*) between 30 and 40
 
  -----------------------------------------------------------------------------------------------
+
+ -- fazendo join de uma tabela com a outra e usamos algumas especificacoes como filtro de busca 
 
 SELECT Idf_Salario as ID, Sig_Moeda as Moeda, Num_Matricula as NumeroMatricula, 
 Dta_Fim_Vigencia as DataFimVigencia, Vlr_Salario as ValorSalario
@@ -40,6 +30,7 @@ ORDER BY ID
  -----------------------------------------------------------------------------------------------
 
 -- descobrir todos os contratos da matricula 86
+
 select * --TAB_Empregado.Idf_Empregado, TAB_Empregado.Num_Matricula, TAB_Empregado_Contrato.Idf_Contrato, TAB_Empregado_Contrato.Dta_Cadastro, TAB_Salario.Vlr_Salario
 from TAB_Empregado
 join tab_Empregado_Contrato on TAB_Empregado.Idf_Empregado = tab_empregado_Contrato.Idf_Empregado
@@ -47,6 +38,8 @@ join TAB_Salario on TAB_Empregado.Idf_Empregado = TAB_Salario.Idf_Empregado
 where Num_Matricula = 86;
 
  -----------------------------------------------------------------------------------------------
+
+ -- descobrir todos os contratos da matricula 86
 
 select *--TAB_Empregado.Idf_Empregado, TAB_Empregado.Num_Matricula, TAB_Empregado_Contrato.Idf_Contrato, TAB_Empregado_Contrato.Dta_Cadastro, TAB_Salario.Vlr_Salario
 from TAB_Empregado
@@ -56,19 +49,7 @@ where Num_Matricula = 86;
 
  -----------------------------------------------------------------------------------------------
 
-select * from TAB_Salario
-where Idf_Empregado = 3833
-
-select * from tab_Empregado_Contrato where Idf_Empregado = 3833
-
-select * from TAB_Empregado where Num_Matricula = 86;
-
- -----------------------------------------------------------------------------------------------
-
-select MAX(Idf_salario) as MaiorId 
-from TAB_Salario
-
- -----------------------------------------------------------------------------------------------
+-- fazendo um begin tran, caso seja uma table muito grande ou muito importante 
 
 select * from TAB_Salario
 WHERE Idf_Salario = 12796;
@@ -86,6 +67,7 @@ WHERE Idf_Salario = 12796;
  -----------------------------------------------------------------------------------------------
 
 -- DESCOBRIR O RELACIONAMENTO DAS TABELAS 
+
 Sp_HELP 'TAB_Empregado'
 
 ------------------------------------------------------------------------------------------------
@@ -99,6 +81,8 @@ where Idf_Periodo_Calculo between 201701 and 201804
 and Idf_Tipo_Folha = 1 or Idf_Tipo_Folha = 5
 group by idf_empregado,idf_periodo_calculo,Vlr_Holerite
 having count(*) > 1 
+
+------------------------------------------------------------------------------------------------
 
 --Media dos holerites entre o periodo de calculo 201701 e 2018014 
 
@@ -125,7 +109,13 @@ select * from TAB_Filial
 where raz_social like '%nes%bebi%alim%'
 and Num_Comercial = 33333333
 
-------------------------------------------------------------------------------------------------------------------
+ ---------------------------------------------------------------------------------------------------------------
+
+ SELECT * from TAB_Filial
+ WHERE raz_social like '%nes%bebi%alim%'
+ AND Num_Comercial = 33333333
+
+ --------------------------------------------------------------------------------------------------------------
 
 -- Quando feita a alteração da razao social da nestle, que se encontra no num_cnpj citado, o trigger rodará
 
@@ -144,16 +134,9 @@ BEGIN
 	WHERE Num_CNPJ = 33062464000181
 	
 END
-Go
+GO
 
 --------------------------------------------------------------------------------------------------------------------
-
-
-
-
-
-
-
 
 
 
