@@ -195,3 +195,556 @@ SELECT nome, CONVERT(DATE,p.DtaNascimento)
 FROM Pessoa p
 WHERE DtaNascimento BETWEEN '2000-04-01' AND '2000-04-31'
 
+-----------------------------------------------------------------------------------------------------------
+
+Informar as transportadoras o peso e cubagem, acompanhando carregamento dos produtos e distribuindo peso da carga de acordo com limite legal de cada veículo. " ? 0 0 0 0 no 0 ? 7 ? 1 08/02/13 0 yes no 0 ? ? ? "I" no no no "nenhum" 0 "nenhum" 0 no 0 0 no "" "" 0 0 yes "" "" "414105" "" 0 0 0 yes no 0 413188 0 0 0 no 0 0 "" 0 2014-07-12T16:51:50.830 "" "" "" "" "NEFET" "" 0 1 1 1
+2559 2 "ANALISTA CONTÁBIL" "ANALISTA CONTÁBIL" "Responsável pelo Ativo Fixo, estoque contábil, admissões temporárias – importações, conciliações contábeis, contas intercompanhias.
+Responsible for fixed assets, inventory accounting, temporary admissions - imports, accounting reconciliations, intercompany accounts.
+
+Descrição Detalhada / Detailed Description:
+Executar outras atividades, desde que de mesma natureza e de equivalentes graus de responsabilidade e complexidade, sempre que solicitado a intervir.
+Perform other activities, provided that the same kind and of equivalent degrees of complexity and responsibility, whenever requested to intervene.
+
+Legalizar a empresa preenchendo formulários específicos inerentes a atividade da empresa, preparar a documentação para certidões negativas, notificar o encerramento junto aos órgãos competentes.
+Legalizing the company filling out forms inherent specific activity of the company, prepare documentation for clearance certificates, notifying the closure by the appropriate bodies.
+
+Administrar os tributos da empresa enquadrando a empresa no sistema de tributação apontando as possibilidades de uso dos incentivos fiscais gerando os dados para o preenchimento das guias.
+Administer taxes framing the company's business taxation system in pointing out the possible use of tax incentives generating data to fill the guides.
+
+Estruturar plano de contas, manutenção do plano de contas, parametrizar aplicativos contábeis, administrar e classificar o fluxo de documentos, escriturar livros contábeis, conciliar saldo de contas, gerar diário/razão.
+Structure chart of accounts, maintaining the chart of accounts, accounting parameterize applications, classify and manage the flow of documents, notarize ledgers, reconcile account balances, generate daily / reason.
+
+Controlar o ativo permanente classificando o bem na contabilidade e no sistema patrimonial aplicando a taxa de amortização, depreciação e exaustão. Realizar o controle físico com o contábil.
+Controlling fixed assets ranking well in accounting and equity in the system by applying the rate of amortization, depreciation and depletion. Perform physical control with the book.
+Gerenciamento, análise e apuração de custos orientando as diversas áreas da empresa
+Management, analysis and calculation of cost guiding the various areas of the company
+
+Preparar obrigações acessórias administrando o registro dos livros nos órgãos apropriados, conferindo à declaração de IR de pessoa jurídica além do atendimento a auditoria externa.
+Prepare ancillary obligations of managing the record books in the appropriate bodies, giving the IR statement of legal entity as well as attending external audit.
+
+Elaboração de relatórios com demonstrativos contábeis, conferência de balancetes, balanços e demais demonstrativos contábeis. Consolidação e preparação de notas explicativas das demonstrações contábeis.
+Reporting on financial statements, balance sheets conference, balance sheets and other financial statements. Consolidation and preparation of notes to the financial statements.
+
+Análise do balancete contábil e assessoramento à gestão empresarial prestando informações sobre balanços.
+Analysis of balance sheet accounting and business management advice to providing information on balance sheets.
+
+Ministrar palestras, seminários e treinamentos sempre que necessário para aprimoramento profissional.
+Lectures, seminars and trainings as needed for professional improvement.
+
+Enviar mensagens, boletins informativos. Divulgar e consultar manuais. Participar de congressos, convenções e workshop.
+Send messages and newsletters. Disclose and consult manuals. Attend conferences, conventions and workshops.
+
+Fazer da segurança e qualidade sua prioridade número 1, apoiando todas as políticas de QSMS da Cetco do Brasill.
+Make safety and quality a 1 goal by supporting all Cetco Do Brazil QHSE policies. 
+
+Atender a Política, Objetivos e Metas de QSMS da organização
+Attend company’s HSE policy, objectives and goals.
+
+Zelar pelo cumprir dos procedimentos de qualidade, segurança, saúde e meio ambiente, de acordo com o SGI – Sistema de Gestão Integrada e em conformidade com as normas ISO 9001, ISO 14001 e OHSAS 18001 Ensure to follow quality, safety, health and environment procedures, according to IMS - Integrated Management System and in accordance to ISO 9001, ISO 14001 and OHSAS 18001." ? 0 0 0 0 no 0 ? 9 ? 2 08/02/13 0 yes no 0 ? ? ? "I" no no no "NENHUM" 0 "NENHUM" 0 no 0 0 no "" "" 0 0 yes "" "" "252210" "" 0 0 0 yes no 0 413188 0 0 0 no 0 0 "" 6 2014-07-12T16:51:50.830 "" "" "" "" "NEFET" "" 0 1 1 1
+2559 3 "ANALISTA DE CONTROLADORIA" "ANALISTA DE CONTROLADORIA" "" ? 0 0 0 0 no 0 ? 0 ? 3 08/02/13 0 yes no 0 ? ? ? "" no no no "NENHUM" 0 "NENHUM" 0 no 0 0 no "" "" 0 0 yes "" "" "252210" "" 0 0 0 yes no 0 413188 0 0 0 no 0 0 "" 6 2014-07-12T16:51:50.830 "" "" "" "" "NEFET" "" 0 1 1 1
+2559 4 "ANALISTA DE QSMS" "ANALISTA DE QSM" "Descrição Sumária:
+Realizar atividades de suporte ao Sistema de Gestão Integrada, envolvendo a análise de normas, preparação de treinamentos, organização de documentação e outras atividades de apoio administrativo, visando contribuir para o alcance dos objetivos estabelecidos pela empresa.
+	
+Descrição Detalhada:
+Prestar assistência na gestão do sistema de gestão de QSMS da empresa, administrando os processos de controle de documentos, registros, auditorias internas, ações corretivas e preventivas. Fará a análise crítica, inspeções, gestão de resíduos e identificação e monitoramento de requisitos legais. Atuará também na área de consultoria da empresa, realizando pesquisas, treinamentos e auditorias para os clientes.
+	
+Prestar assistência ao processo de desenvolvimento e manutenção do Sistema de Gestão Integrada, buscando informações e feedbacks que possibilitem avaliação dos programas e procedimentos implantados.
+
+Apoiar a implementação e difusão das políticas de segurança do trabalho. Auxílio na emissão de relatórios gerais relacionados à prevenção de acidentes. Indicar os equipamentos de proteção individuais e coletivos. Apoio aos trabalhos da CIPA em seus programas, estudando suas observações e proposições.
+
+Programar e executar o treinamento de todos os funcionários nas atividades do Sistema de Gestão Integrada, visando a multiplicação dos conhecimentos e facilitar a implementação dos programas.
+
+Assessorar os gerentes e facilitadores da empresa na implantação das atividades do Sistema de Gestão Integrada, visando garantir sua execução dentro dos padrões estabelecidos.
+
+Organizar eventos internos e externos relativos ao Sistema de Gestão Integrada, visando promover o treinamento dos colaboradores.
+
+Elaborar os fluxogramas de documentação do Sistema de Gestão Integrada, visando a correta comunicação e registro das informações.
+
+Desenvolver material de apoio, tais como apostilas, cartilhas, cartazes, visando otimizar os treinamentos e a divulgação do programa.
+
+Solicitar e providenciar a aquisição de normas oficiais junto à ABNT.
+
+Controlar as ocorrências relacionadas com o sistema de gestão, digitando dados, para elaboração de relatórios com estatísticas de produção.
+
+Participar da elaboração e redação dos procedimentos relacionados com a qualidade, meio ambiente, saúde e segurança.
+
+Manter controles dos registros do QSMS.
+
+Controlar os certificados de qualidade de matérias-primas recebidas.
+
+Verificar os prazos dos certificados de aferição de instrumentos por entidade credenciada.
+
+Ministrar treinamentos internos relacionados com o SGI.
+
+Distribuir e controlar as cópias de manuais do SGI.
+
+Zelar pelo cumprir dos procedimentos de qualidade, segurança, saúde e meio ambiente, de acordo com o SGI – Sistema de Gestão Integrada e em conformidade com as normas ISO 9001, ISO 14001 e OHSAS 18001.
+
+Executar outras tarefas correlatas às acima descritas, a critério do seu superior imediato.
+
+" ? 0 0 0 0 no 0 ? 9 ? 4 08/02/13 0 yes no 0 ? ? ? "I" no no no "nenhum" 0 "nenhum" 0 no 0 0 no "" "" 0 0 yes "" "" "351605" "" 0 0 0 yes no 0 413188 0 0 0 no 0 0 "" 0 2014-07-12T16:51:50.830 "" "" "" "" "NEFET" "" 0 1 1 1
+2559 5 "ANALISTA FINANCEIRO" "ANALISTA FINANC" "Descrição Sumária:
+Responsável pela administração dos processos financeiros: tesouraria, contas a pagar (média pagamentos mensais) e contas a receber (média recebimentos); bancária diária; controle das contas, investimentos e aplicações financeiras (média investimentos); administração de fluxo de caixa (média geração caixa); administração e guarda de fundo fixo e documentos confidenciais; controle de adiantamentos e baixas; análise contábil das contas relativas a bancos, adiantamentos, contas a pagar a clientes; emissão de cheques, preparação e análise de documentos para enviar a contabilidade; interface com diversas áreas da companhia; relacionamento bancário; negociação com clientes e fornecedores; envio de arquivo eletrônico de folha de pagamento; participação na implantação de ERP, cadastro dos funcionários, bancos e parametrizações diversas; arquivo físico; elaboração de relatórios e planilhas de acompanhamento de contas a receber e pagamento; pagamento eletrônico; cobrança intercompany.
+Descrição Detalhada:
+Conciliação bancária realizada diariamente através dos extratos bancários registrando todas as movimentações financeiras de entrada e saída, além do controle de saldos.
+Bank reconciliation performed daily through bank statements 
+
+Controlar o contas a receber através de planilhas, notas faturadas informando ao setor de vendas e contabilidade. Este processo é realizado como o alimentador do caixa da empresa, capital de giro, aplicações, investimentos, cumprimento dos compromissos da empresa.
+
+Os pagamentos são realizados diariamente após a conciliação bancária, encaminhados para aprovação, envio ao banco on line, conferência no dia seguinte é realizada a conciliação e encaminhamento para a contabilidade. Caso haja qualquer atraso na quitação e inadimplência dos compromissos para com os fornecedores, estes podem impactar a empresa em processos licitatórios, além de se tornarem mau pagadores com risco de não fornecer o serviço e compra.
+
+Administração do Fluxo de Caixa realizado através de planilhas eletrônicas para controle do caixa da empresa prevendo e planejando a situação financeira baseando-se no fluxo de caixa.
+
+Responsável pela administração de fundo fixo de caixa controlando e custeando pequenas despesas da empresa e ao final de cada mês baixa do valor retirado prestando contas com a composição do valor.
+
+Controlar as contas, investimentos e aplicações financeiras. A partir da conciliação bancária e dependendo do saldo será realizada a aplicação ou resgate de acordo com o fluxo de caixa projetado.
+
+Cobrança intercompany é realizada a verificação de todas as despesas pagas e geradas pelo custo de outra cia do grupo. É emitido uma fatura, cobrando o valor total, média cobrança para o ressarcimento dos custos.
+
+Controlar os adiantamentos e baixas de pagamentos quando são realizadas as primeiras compras de determinado fornecedor e ou viagens de funcionários.
+
+Enviar o arquivo bancário da folha de pagamento mensal, aguardando e acompanhando o processamento que será creditado o valor do salário para os funcionários. 
+
+Participação na implantação do sistema MxM cadastrando e parametrizando todos os itens referentes ao módulo financeiro, contas a pagar, receber e tesouraria para a execução das rotinas financeiras através de um sistema ERP facilitando as atividades diárias e integrando os setores envolvidos
+
+Executar outras atividades, desde que de mesma natureza e de equivalentes graus de responsabilidade e complexidade, sempre que solicitado a intervir.
+
+Fazer da segurança e qualidade sua prioridade número 1, apoiando todas as políticas de QSMS da Cetco do Brasill. 
+
+Atender a Política, Objetivos e Metas de QSMS da organização
+
+Zelar pelo cumprir dos procedimentos de qualidade, segurança, saúde e meio ambiente, de acordo com o SGI – Sistema de Gestão Integrada e em conformidade com as normas ISO 9001, ISO 14001 e OHSAS 18001
+" ? 0 0 0 0 no 0 ? 7 ? 5 08/02/13 0 yes no 0 ? ? ? "I" no no no "nenhum" 0 "nenhum" 0 yes 0 0 no "" "" 0 0 yes "" "" "252545" "" 0 0 0 yes no 0 413188 0 0 0 no 0 0 "" 0 2014-07-12T16:51:50.830 "" "" "" "" "NEFET" "" 0 1 1 1
+2559 6 "ANALISTA FISCAL" "ANALISTA FISCAL" "Descrição Sumária:
+Revisão das notas fiscais de entrada, emissão de notas fiscais de saída, apuração de impostos diretos, apuração de impostos indiretos, entrega de sped fiscais e contribuições, entrega de DCTF, DACN, DIRF, DIPJ, entrega de GIA, SINTEGRA, DECLAN e DUB, escrituração de livro de entrada, saída e apuração, retenção e recolhimento de impostos.
+
+Descrição Detalhada:
+Apurar impostos diretos como IRPS, CLSS, PIS, COFINS, IPI extraindo dados do sistema e alimentando a planilha de apuração de cada imposto obedecendo a legislação específica de cada imposto. Após o fechamento do valor é elaborada a guia e repassada para o departamento financeiro.
+
+Apurar impostos indiretos como ICMS, IPI, ISS de acordo com a chegada das notas fiscais sendo emitidas. Escrituração no livro de entradas e saídas, livro de apuração de cada imposto indireto.
+
+São emitidas as notas fiscais de acordo com a solicitação do departamento comercial para pagamento dos serviços prestados pela CETCO. Estas notas fiscais são emitidas de acordo com o RM através do site da prefeitura.
+
+Realizar lançamentos contábeis e análise de contas para manter o registro correto das contas; analisar e emitir um razão das contas para em seguida conferir uma por uma.
+
+Realizar reconciliação de contas gerenciais, emissão de relatórios reconciliando contas importantes apontadas pelo Diretor Financeiro da América Latina para em seguida enviar para a matriz da empresa (USA).
+
+Executar outras atividades, desde que de mesma natureza e de equivalentes graus de responsabilidade e complexidade, sempre que solicitado a intervir.
+
+Fazer da segurança e qualidade sua prioridade número 1, apoiando todas as políticas de QSMS da Cetco do Brasil.
+
+Atender a Política, Objetivos e Metas de QSMS da organização.
+
+Zelar pelo cumprir dos procedimentos de qualidade, segurança, saúde e meio ambiente, de acordo com o SGI – Sistema de Gestão Integrada e em conformidade com as normas ISO 9001, ISO 14001 e OHSAS 18001.
+" ? 0 0 0 0 no 0 ? 9 ? 6 08/02/13 0 yes no 0 ? ? ? "I" no no no "NENHUM" 0 "NENHUM" 0 no 0 0 no "" "" 0 0 yes "" "" "251225" "" 0 0 0 yes no 0 413188 0 0 0 no 0 0 "" 6 2014-07-12T16:51:50.830 "" "" "" "" "NEFET" "" 0 1 1 1
+2559 7 "APRENDIZ ADMINISTRATIVO" "APRENDIZ ADMINI" "Descrição Sumária:
+Dar suporte administrativo e técnico nas áreas da empresa, com foco à área em que estiver em atuação; atender usuários, fornecendo e recebendo informações; tratar de documentos variados, cumprindo todo o procedimento necessário referente aos mesmos; preparar relatórios e planilhas; executar serviços gerais de cunho administrativo. 
+
+Descrição Detalhada:
+
+Responsável pelo planejamento das atividades, fixando metas, define recursos materiais e humanos para cada atividade. 
+
+Trabalhar sob supervisão geral, podendo, inclusive, orientar os demais colaboradores do seu setor ou equipe, quanto à programação de atividades e na solução de problemas que, eventualmente, possam ocorrer, utilizando elevado conhecimento técnico e experiência profissional suficientes e compatíveis para a execução das tarefas mais complexas do cargo.
+
+Executar serviços de maior complexidade na área administrativa, envolvendo análise e classificação de documentos, elaboração de relatórios, gráficos e demonstrativos em geral, compilação e análise de informações estatísticas, indicadores, fluxogramas e demais instrumentos de informação, arquivamento de correspondências, documentos, relatórios e outros, objetivando o acompanhamento, o controle e a execução de trabalhos relativos à sua área de atuação, assim como o fornecimento de subsídios para análise e tomada de decisões.
+
+Controlar, a partir de cronogramas estabelecidos, a realização das atividades e compromissos assumidos, de forma a que o trabalho não sofra solução de continuidade.
+
+Executar trabalhos específicos de sua área de atuação, monitorando tarefas, analisando, redigindo, formatando, conferindo ou designando processos, documentos, boletos e outros, bem como cumprindo as responsabilidades conforme demanda do seu setor/ área.
+
+Manter a área de trabalho segura e garantir a segurança individual e coletiva dos colegas de empresa e de todos na plataforma
+
+Zelar pelo cumprir dos procedimentos de qualidade, segurança, saúde e meio ambiente, de acordo com o SGI – Sistema de Gestão Integrada e em conformidade com as normas ISO 9001, ISO 14001 e OHSAS 18001   
+
+Executar outras atividades, desde que de mesma natureza e de equivalentes graus de responsabilidade e complexidade, sempre que solicitado a intervir.   
+
+Fazer da segurança e qualidade sua prioridade número 1, apoiando todas as políticas de QSMS da Cetco Do Brasil.   
+
+" ? 0 0 0 0 no 0 yes 7 ? 7 08/02/13 0 yes no 0 ? ? ? "I" no no no "nenhum" 0 "nenhum" 0 no 0 0 no "" "" 0 0 yes "" "" "411005" "" 0 0 0 yes no 0 413188 0 0 0 no 0 0 "" 0 2014-07-12T16:51:50.830 "" "" "" "" "NEFET" "" 0 1 1 1
+2559 8 "APRENDIZ EM COMÉRCIO E VAREJO" "APRENDIZ EM COMÉRCIO E VAREJO" "" ? 0 0 0 0 no 0 ? 0 ? 8 08/02/13 0 yes no 0 ? ? ? "" no no no "NENHUM" 0 "NENHUM" 0 no 0 0 no "" "" 0 0 yes "" "" "521110" "" 0 0 0 yes no 0 413188 0 0 0 no 0 0 "" 6 2014-07-12T16:51:50.830 "" "" "" "" "NEFET" "" 0 1 1 1
+2559 9 "ASSESSOR(A) ADMINISTRATIVO(A)" "ASSESSOR(A) ADMINISTRATIVO(A)" "" ? 0 0 0 0 no 0 ? 0 ? 9 08/02/13 0 yes no 0 ? ? ? "" no no no "NENHUM" 0 "NENHUM" 0 no 0 0 no "" "" 0 0 yes "" "" "252305" "" 0 0 0 yes no 0 413188 0 0 0 no 0 0 "" 6 2014-07-12T16:51:50.830 "" "" "" "" "NEFET" "" 0 1 1 1
+2559 10 "ASSESSORA DE RH" "ASSESSORA DE RH" "" ? 0 0 0 0 no 0 ? 0 ? 10 08/02/13 0 yes no 0 ? ? ? "" no no no "NENHUM" 0 "NENHUM" 0 no 0 0 no "" "" 0 0 yes "" "" "252405" "" 0 0 0 yes no 0 413188 0 0 0 no 0 0 "" 6 2014-07-12T16:51:50.830 "" "" "" "" "NEFET" "" 0 1 1 1
+2559 11 "ASSIST. ADMINISTRATIVO DE CONTRATOS" "ASSIST. ADMINISTRATIVO DE CONTRATOS" "Descrição Sumária :
+Auxílio no faturamento de contratos, medição de contratos, participação de reuniões pré e pós job onde orientam os operadores, recebimento e verificação de documentos, auxiliar na geração de conteúdo local, acompanhamento das contas a receber, arquivo de notas e faturas, conferência dos recebimentos, elaboração de planilhas do faturamento de cada contrato, interface junto a clientes desde a preparação até finalização, controle financeiro de contratos, controle da documentação, cadastro no CRCC, acompanhamento do processo geral.
+
+Descrição Detalhada:
+Medição do contrato – comprovantes de campo, análise dos comprovantes, imput em planilhas de excel pertinentes a cada contrato após finalizadas as atividades enviando ao Gerente de Contrato para sua aprovação enviando para o cliente para análise e aprovação. Após esta aprovação se dará início ao processo de faturamento.
+
+Reuniões Pré Job – orientação para os operadores preenchimento correto dos comprovantes de campo. ênfase na documentação, detalhes de preenchimento do comprovante de campo.
+
+Reunião Pós Job – operadores quando desembarcam trazendo a documentação que será analisada verificando as informações que constam que cada relatório de comprovante de campo ou RDO. Conferência, recolhimento dos comprovantes de campo, relatório de descarte e JSEA, cópia desta documentação, arquivo da documentação em arquivo digital e distribuição da documentação nos setores internos da empresa.
+
+Conteúdo Local – aplicável no contrato de filtração. É uma forma de incentivo do governo para aumentar a participação da indústria nacional de bens de serviços com diversas finalidades entre elas a geração de empregos e fomentar a economia.
+
+Interface com o cliente. 
+
+Job routine – preparação para o trabalho a ser desenvolvido; busca das informações básicas para dar início da rotina. 
+
+Faturamento – verificação do faturamento da realização do trabalho que foi realizado durante o período estabelecido. 
+
+Contato com o cliente quando ocorre algum problema durante operação Auxílio no faturamento de contratos
+
+Acompanhamento das contas a receber – recebimento de informação do setor do financeiro do faturamento realizado, conferência das informações de acordo com a planilha e confirmação da remessa realizada.
+
+Arquivo de Notas fiscais, recibos e faturas – arquivamento de toda documentação de acordo com o contrato e a pasta do cliente.
+
+Controle do cadastro CRCC – cadastro pertinente para prestação de serviços / fornecimento de materiais, financeiro, jurídico, econômico, técnico, SMS. Antes do vencimento do cadastro de CRCC é necessário que haja o recebimento da documentação para a renovação do cadastro. 
+
+Ter a segurança como prioridade número 1 tanto onshore quanto offshore.
+
+Zelar pelo cumprir dos procedimentos de qualidade, segurança, saúde e meio ambiente, de acordo com o SGI – Sistema de Gestão Integrada e em conformidade com as normas ISO 9001, ISO 14001 e OHSAS 18001.
+" ? 0 0 0 0 no 0 ? 0 ? 11 08/02/13 0 yes no 0 ? ? ? "" no no no "NENHUM" 0 "NENHUM" 0 no 0 0 no "" "" 0 0 yes "" "" "411010" "" 0 0 0 yes no 0 413188 0 0 0 no 0 0 "" 6 2014-07-12T16:51:50.830 "" "" "" "" "NEFET" "" 0 1 1 1
+2559 12 "ASSISTENTE DE LOGÍSTICA" "ASSISTENTE DE LOGÍSTICA" "Planejar, controlar e avaliar a eficiência dos meios de transporte utilizados pela empresa, baseando-se na disponibilidade de recursos físicos, materiais, financeiros e humanos. Responsável pelo planejamento e programação de recebimento de equipamentos, estocagem, distribuição e o transporte de produtos. Responsável pelo embarque e desembarque de pessoas e equipamentos, importações e exportações da logística.
+Plan, monitor and evaluate the efficiency of the means of transport used by the company, based on the availability of physical resources, material, financial and human. Responsible for the planning and scheduling of equipment receipt, storage, distribution and transportation of products. Responsible for loading and unloading of people and equipment, import and export logistics.
+
+4.	Descrição Detalhada / Detailed Description:
+Realizar a gestão de embarque e desembarque de equipamentos para unidades marítimas, através de solicitações vindas do setor operacional, para fins de atendimentos das devidas solicitações.
+Make management of loading and unloading equipment for maritime units, through requests from the operational sector, for purposes of due care requests.
+	
+Realizar a gestão de embarque e desembarque de pessoal através de transportes terrestres, aéreo, aéreo marítimo e conforme solicitação realizada através de sistema SAP R3.
+Make management of loading and unloading of personnel through land transport, air, sea and air as request made through SAP R3.
+	
+Controlar planilhas de vencimentos sempre que houver embarque ou necessário, para fins de atendimento aos requisitos do cliente.
+Controlling spreadsheets salaries whenever loading or necessary, for purposes of compliance to customer requirements.
+	
+Controlar custos de hospedagem e translado, através de planilhas eletrônicas, a afim de solicitar reembolso.
+Control costs of hosting and transfer via spreadsheets, in order to request a refund.
+	
+Realizar emissão de NF eletrônica para embarque e desembarque de equipamentos.
+Make NF electron emission for loading and unloading equipment.
+	
+Realizar cadastro de clientes e fornecedores, inserindo dados no sistema MXM.
+Make registration of customers and suppliers, entering data into the system MXM.
+	
+Realizar a gestão de arquivos de NF junto ao setor de controladoria da empresa.
+Perform file management with the NF sector controlling the company
+	
+Atender clientes para desembarque de equipes das unidades marítimas, sempre que necessário ou solicitado.
+Attending to customers landing teams of maritime units where necessary or requested.
+	
+Controlar, alimentar, criar e apresentar indicadores dos processos de logística nas reuniões de SGI.
+Control, feed, create and present indicators of logistics processes at meetings of SGI.
+	
+Realizar o controle de equipamentos referente a movimentação, localização, disponibilidade para que os o setor de contratos possa fazer a cobrança da locação dos equipamentos offshore.
+Perform control equipment related to handling, location, availability, so that the sector can contract to charge the lease of equipment offshore.
+	
+Realizar atendimento as solicitações de clientes internos para fins de logística de pessoal.
+Make service requests from internal customers for logistics personnel.
+	
+Ministrar/participar de reuniões internas e externas, sempre que necessário ou convocado (a).
+Provide / attend internal and external meetings as necessary or called.
+	
+Manter-se permanentemente informado sobre a legislação atual relative ao transporte dos Equipamentos da Cetco.
+To be kept permanently informed current legislation related to Cetco Equipment transportation.
+
+Ser responsável pelas necessidades operacionais referente aos envios de Equipamentos, mantendo registros precisos de todos os Equipamentos.
+Be responsible for the operational needs relating to items of equipment, keeping accurate records of all equipment.
+
+Cumprir plenamente todos os procedimentos e registro administrativos conforme exigido pela Alfândega e Receita Federal. /
+To fully comply with all procedures and administrative records as required by Customs and Federal Revenue Service.
+
+Comunicar ao setor operacional qualquer problema, sugestão, ideias e melhorias, sempre que houver necessidade.
+Report any problems to the operational sector, suggestions, ideas and improvements, whenever the need arises.
+
+Estabelecer relacionamento com o responsável de logística do cliente. 
+To establish relationship with responsible person for client’s logistics
+
+Manter e expandir contratos terceirizados relativos ao embarque de equipamentos e de pessoas. 
+To maintain and expand outsourced agreements related to equipment and people shipping. 
+
+Certificar se todos os Equipamentos estão sendo carregados de acordo com a nota fiscal. / 
+To make sure that all Equipment is being loaded in accordance with the invoice
+
+Avaliar fornecedores, oferecendo feedback específico, visando a melhorar o atendimento localizado e a adequação do atendimento à realidade da empresa./
+To evaluate suppliers, providing specific feedback, aimed at improving localized service and service adaptation to the company’s reality
+
+Atualizar o SISPAT.
+Update the SISPAT.
+
+Utilizar planilhas eletrônicas e processadores de texto, para controle e apresentação de relatórios administrativos.
+Using spreadsheets and word processors for control and administrative reporting.
+
+Receber, registrar, arquivar, preencher e encaminhar documentos para todos os setores da organização.
+Receive, record, archive, complete and return the documents to all sectors of the organization.
+	
+Atender Auditoria interna e externa, sempre que solicitado (a).
+Attending Internal and external audit whenever requested
+
+Ter a segurança como prioridade número 1 tanto onshore quanto offshore.
+To have safety as number 1 priority both onshore and offshore.
+
+Zelar pelo cumprir dos procedimentos de qualidade, segurança, saúde e meio ambiente, de acordo com o SGI – Sistema de Gestão Integrada e em conformidade com as normas ISO 9001, ISO 14001 e OHSAS 18001. 
+Ensure to follow quality, safety, health and environment procedures, according to IMS - Integrated Management System and in accordance to ISO 9001, ISO 14001 and OHSAS 18001
+	
+Executar outras tarefas correlatas às acima descritas, a critério do seu superior imediato e também em observância ao mapa de processo.
+Perform other tasks related to those described above, at the discretion of your supervisor and also in compliance with the process map." ? 0 0 0 0 no 0 ? 7 ? 12 08/02/13 0 yes no 0 ? ? ? "I" no no no "NENHUM" 0 "NENHUM" 0 no 0 0 no "" "" 0 0 yes "" "" "342125" "" 0 0 0 yes no 0 413188 0 0 0 no 0 0 "" 6 2014-07-12T16:51:50.830 "" "" "" "" "NEFET" "" 0 1 1 1
+2559 13 "ASSISTENTE DE R.H." "ASSISTENTE DE R.H." "Descrição Sumária / Brief Description:
+Executar as atividades administrativas inerentes à área de Recursos Humanos da Empresa, apoiando no desenvolvimento dos projetos e atividades da área, através de ferramentas específicas, com objetivo de efetuar a gestão das pessoas alinhada à estratégia da Empresa.
+
+Descrição Detalhada / Detailed Description:
+Responsável pela execução e controle do processo de recrutamento e seleção de candidatos, utilizando de entrevistas, provas, testes, dinâmicas e outras ferramentas pertinentes para contratação de profissionais adequados às vagas da Empresa.
+
+Realizar treinamento para integração dos novos colaboradores, através da apresentação da Empresa e dos setores, de acordo com as normas e procedimentos da Empresa.
+
+Apoiar nas avaliações dos colaboradores, através de ferramentas de Avaliação de Desempenho.
+
+Controlar e orientar aos gestores quanto à avaliação do período de experiência dos empregados, utilizando formulário próprio para verificar a continuidade do contrato de trabalho.
+
+Prestar assistência necessária no processo de Pesquisa de Clima Organizacional para mensurar a satisfação dos colaboradores com a Empresa.
+
+
+Auxiliar no planejamento e execução das ações de motivação ou integração com objetivo de reter os colaboradores.
+
+
+Auxiliar na organização de eventos internos, com objetivo de motivar e integrar os colaboradores.
+
+Auxiliar nas atividades de comunicação interna.
+Apoiar no levantamento de necessidade de treinamentos através dos formulários específicos, em conjunto com os gestores de área, para planejá-los para o público interno.
+
+Realizar a logística de treinamentos funcionais e de desenvolvimento cuidando das solicitações de reserva de sala, materiais necessários, coffe break e outros para o bom andamento do mesmo.
+
+Aplicar entrevista de desligamento por meio de questionário próprio, afim de identificar pontos de melhoria a serem abordados com as gerências e/ou diretoria da Empresa.
+
+Controlar mensalmente todos os treinamentos da Empresa, funcionais e de desenvolvimento, afim de garantir a execução do Plano Anual de Treinamentos.
+
+Controlar e acompanhar as admissões e mudanças de função da Empresa, afim de garantir a correta aplicação da Gestão de Competências junto com os Gestores de cada área.
+
+Realizar mensalmente pedido de benefícios, através dos sistemas de cada fornecedor, garantindo disponibilização de benefícios para todos os Empregados, conforme políticas internas.
+
+
+Controlar todos os benefícios da Empresa, garantindo a ativação de todos os empregados ativos em todos os benefícios fornecidos pela empresa, respeitando o estabelecido em políticas internas, leis trabalhistas e Acordo Coletivo de Trabalho.
+
+Atender aos colaboradores da empresa dirimindo todas as dúvidas e orientando-os, sempre que solicitado .
+
+Ter a segurança como prioridade número 1 tanto onshore quanto offshore.
+
+Zelar pelo cumprir dos procedimentos de qualidade, segurança, saúde e meio ambiente, de acordo com o SGI – Sistema de Gestão Integrada e em conformidade com as normas ISO 9001, ISO 14001 e OHSAS 18001.
+	
+Executar outras tarefas correlatas às acima descritas, a critério do seu superior imediato e também em observância ao mapa de processo.
+" ? 0 0 0 0 no 0 ? 7 ? 13 08/02/13 0 yes no 0 ? ? ? "I" no no no "NENHUM" 0 "NENHUM" 0 no 0 0 no "" "" 0 0 yes "" "" "411010" "" 0 0 0 yes no 0 413188 0 0 0 no 0 0 "" 6 2014-07-12T16:51:50.830 "" "" "" "" "NEFET" "" 0 1 1 1
+2559 14 "ASSISTENTE OPERACIONAL" "ASSISTENTE OPER" "" ? 0 0 0 0 no 0 ? 0 ? 14 08/02/13 0 yes no 0 ? ? ? "" no no no "nenhum" 0 "nenhum" 0 yes 0 0 no "" "" 0 0 yes "" "" "252305" "" 0 0 0 yes no 0 413188 0 0 0 no 0 0 "" 0 2014-07-12T16:51:50.830 "" "" "" "" "NEFET" "" 0 1 1 1
+2559 15 "COMPRADOR (A)" "COMPRADOR (A)" "Assegurar o abastecimento dos insumos de produção e demais materiais utilizados pela empresa, ao menor preço possível, dentro dos padrões estabelecidos de prazos e qualidade dos produtos e serviços. Atualizar cadastro de fornecedores e acompanhar o recebimento de materiais verificando o atendimento ás especificações observando os requisitos da ISO 9001, ISO 14001 3 OHSAS 18001.
+Ensuring the supply of production inputs and other materials used by the company at the lowest possible price, within the established patterns of time and quality of products and services .. Update register of suppliers and monitor the receipt of materials verifying compliance with specifications noting the requirements of ISO 9001, ISO14001 and OHSAS18001.
+
+Desejável plantão em finais de semana, quando necessário – 48hs para atender a demanda na área de logística.
+Desirable duty on weekends, when needed - 48 hours to meet the demand in logistics.
+
+
+Descrição Detalhada / Detailed Description:
+Fazer a gestão do processo de compras de modo a atender as expectativas dos clientes internos em termos de prazo, qualidade do produto e/ou serviço contratado, custo, melhor preço, etc.
+To manage the procurement process to meet the expectations of internal customers in terms of time, quality of product and / or service purchased, cost, best price, etc.
+
+Utilizar o sistema interno para compras e follow-up das mesmas.
+Using the internal system for shopping and follow-up of the same.
+
+Receber requisições de compras de materiais e/ou serviços, registrando requisições, verificando especificações, identificando famílias e verificando as quantidades de materiais e/ou serviços.
+Receive purchase requisitions for materials and / or services, posting requisitions, checking specifications, identifying families and verifying the quantities of materials and / or services.
+
+Organizar o processo de concorrência, selecionando fornecedores, solicitando e determinando data para apresentação de cotações.
+Organize the competition, selecting suppliers, requesting and determining date for submission of quotations
+
+Abrir concorrências e montar planilha de cotações, analisando cotações e definindo as melhores condições comerciais e o melhor fornecedor, negociando e garantindo sempre os melhores, preços, prazos e condições de pagamentos.
+Open competitions and assemble sheet quotes, quotations analyzing and defining the best conditions and the best commercial supplier, negotiating and guaranteeing the best prices, terms and conditions of payment.
+
+Efetuar o processo de compras de materiais e/ou serviços, estipulando termos e firmando contratos.
+Make the process of purchase of materials and / or services, stipulating terms and signing contracts.
+
+Emitir o pedido de compra, solicitando aprovação, confirmando o pedido e arquivando o pedido de compras.
+Issue the purchase order, requesting approval, confirming the claim and filing the purchase order
+
+Acompanhar fluxo de entregas (follow up), revisando pedidos em aberto, cobrar e checar a entregas de materiais e/ou serviços, devolvendo materiais rejeitados, providenciando a reposição dos que estão na garantia, negociando reparação dos prejuízos decorrentes de materiais rejeitados e acompanhando a nova entrega dos mesmos.
+Track flow of deliveries (follow up), reviewing open orders, collect and check the supply of materials and / or services, returning rejected material, providing the replacement of those under warranty, negotiating compensation for losses from discarded materials and accompanying new delivery.
+
+Consultar fontes de informações sobre fornecedores, verificando qualidade e idoneidade do fabricante do produto a ser adquirido pela empresa.
+Consult sources of information about suppliers, checking quality and reliability of the manufacturer of the product to be purchased by the company.
+
+Pesquisar referências de fornecedores, requisitando amostras ou catálogos de materiais e/ou serviços.
+Find references from suppliers, ordering samples or catalogs of materials and / or services.
+
+Visitar feiras e exposições, entrevistar fornecedores e cadastrar novos para consultas e cotações conforme necessário.
+Visiting exhibitions, interviewing vendors and register for new consultations and quotations as required.
+
+Agendar visita técnica e participar da homologação de fornecedores, materiais e serviços sempre que necessário.
+Schedule technical visit and participate in the approval of suppliers, materials and services whenever necessary.
+
+Cadastrar e manter atualizado o cadastro de fornecedores, encaminhando serviços para testes e propondo o desenvolvimento de materiais novos ou alternativos.
+Register and maintain updated records of suppliers, forwarding services for testing and proposing the development of new or alternative materials.
+
+Avaliar o desempenho de fornecedores, preparando e analisando mapas de concorrências com propostas de fornecedores.
+To evaluate the performance of suppliers, preparing and analyzing bids maps with proposed suppliers.
+
+Atuar em projetos de redução de custos e análise de valor, participando no desenvolvimento de novos produtos e auxiliando a encontrar e implantar novas tecnologias e melhorias no processo.
+Acting on projects to reduce cost and value analysis, participating in developing new products and helping to find and deploy new technologies and process improvements.
+
+Utilizar planilhas eletrônicas e processadores de texto para apresentação de relatórios de: acompanhamento de visitas a fornecedores, de não conformidade de materiais, de variação de preços e comunicação aos setores sobre compras efetuadas.
+Using spreadsheets and word processors for reporting to: monitoring visits to providers of non-compliance materials, price change and communication sectors on the purchases.
+	
+Receber, registrar, arquivar, preencher e encaminhar documentos para todos os setores da organização.
+Receive, record, archive, complete and return the documents to all sectors of the organization
+	
+Atender Auditoria interna e externa, sempre que solicitado (a).
+Attending Internal and external audit whenever requested
+
+Manter atualizada as informações do Mapa de Processo de compras e bem como manter-se atualizada sobre a Organização, departamentos, pessoas e eventos de sua área.
+Maintain updated information from Process Map and shopping as well as keep up to date on the organization, departments, people and events in your area.
+
+Zelar pela guarda, conservação, manutenção e limpeza dos equipamentos, instrumentos e materiais utilizados, bem como do local de trabalho.
+Ensure the custody, maintenance and cleaning of equipment, instruments and materials used, as well as the workplace.
+
+Executar outras tarefas correlatas, conforme necessidade ou a critério de seu superior.
+Perform other related tasks as needed or at the discretion of his superior.
+
+Zelar pelo cumprir dos procedimentos de qualidade, segurança, saúde e meio ambiente, de acordo com o SGI – Sistema de Gestão Integrada e em conformidade com as normas ISO 9001, ISO 14001 e OHSAS 18001.
+Ensure to follow quality, safety, health and environment procedures, according to IMS - Integrated Management System and in accordance to ISO 9001, ISO 14001 and OHSAS 18001." ? 0 0 0 0 no 0 ? 8 ? 15 08/02/13 0 yes no 0 ? ? ? "I" no no no "NENHUM" 0 "NENHUM" 0 no 0 0 no "" "" 0 0 yes "" "" "354205" "" 0 0 0 yes no 0 413188 0 0 0 no 0 0 "" 6 2014-07-12T16:51:50.830 "" "" "" "" "NEFET" "" 0 1 1 1
+2559 16 "CONTROLLER" "CONTROLLER" "" ? 0 0 0 0 no 0 ? 0 ? 16 08/02/13 0 yes no 0 ? ? ? "" no no no "NENHUM" 0 "NENHUM" 0 no 0 0 no "" "" 0 0 yes "" "" "252210" "" 0 0 0 yes no 0 413188 0 0 0 no 0 0 "" 6 2014-07-12T16:51:50.830 "" "" "" "" "NEFET" "" 0 1 1 1
+2559 17 "COORDENADOR DE LOGÍSTICA" "COORDENADOR DE LOGÍSTICA" "" ? 0 0 0 0 no 0 ? 0 ? 17 08/02/13 0 yes no 0 ? ? ? "" no no no "NENHUM" 0 "NENHUM" 0 no 0 0 no "" "" 0 0 yes "" "" "141615" "" 0 0 0 yes no 0 413188 0 0 0 no 0 0 "" 6 2014-07-12T16:51:50.830 "" "" "" "" "NEFET" "" 0 1 1 1
+2559 18 "COORDENADOR DE MANUTENÇÃO" "COORDENADOR DE" "Descrição Sumária:
+Planejam atividades do trabalho, elaboram estudos e projetos, participam no desenvolvimento de processos, realizam projetos, operam sistemas elétricos e executam manutenção. Atuam na área comercial, gerenciam e treinam pessoas, asseguram a qualidade de produtos e serviços e aplicam normas e procedimentos de segurança no trabalho. 
+
+Descrição Detalhada:
+Responsável pelo planejamento das atividades, fixando metas, define recursos materiais e humanos para cada atividade, analisando a viabilidade financeira e econômica reportando ao superior imediato.
+
+Identificar a necessidade do cliente, elaboração do cronograma de atividades, realização do suporte técnico.
+
+Responsável pela preparação dos treinamentos e palestras; elaboração do material didático-pedagógico necessário para o treinamento, manutenção dos treinamentos.
+
+Elaboração de projetos coletando dados, aplicando novas técnicas e ferramentas, levantar os custos, elaboração de documentação técnica do projeto.
+
+Estabelecer procedimentos, normas e padrões determinando fluxograma e maquinários. Fixando parâmetros e aplicação de novas tecnologias para melhoria do processo.
+
+Responsável pela execução e montagem do projeto visando o cumprimento do cronograma e colocando em operação (start-up).
+
+Responsável pela elaboração do programa de manobra dos sistemas, coordenando, analisando o desempenho dos sistemas fornecendo as informações para a área de manutenção.
+
+Ter a segurança como prioridade número um tanto onshore quanto offshore.
+
+Zelar pelo cumprir dos procedimentos de qualidade, segurança, saúde e meio ambiente, de acordo com o SGI – Sistema de Gestão Integrada e em conformidade com as normas ISO 9001, ISO 14001 e OHSAS 18001.
+
+Atender a Política, Objetivos e Metas de QSMS da organização.
+
+
+" ? 0 0 0 0 no 0 ? 9 ? 18 08/02/13 0 yes no 0 ? ? ? "I" no no no "nenhum" 0 "nenhum" 0 no 0 0 no "" "" 0 0 yes "" "" "142705" "" 0 0 0 yes no 0 413188 0 0 0 no 0 0 "" 0 2014-07-12T16:51:50.830 "" "" "" "" "NEFET" "" 0 1 1 1
+2559 19 "COORDENADOR DE OPERAÇÕES" "COORDENADOR DE" "Descrição Sumária:
+Coordenação dos serviços; planejamento de trabalhos; exercer liderança e formação de equipes, acompanhamento de trabalhos.
+
+Descrição Detalhada:
+Controlar operações diáriamente, para garantir o andamento seguro e eficiente de todas as das operações, reportando resultados ao Gerente de Operações. 
+	
+Responsável pela operação de monitoramento de condição, e solução de problemas de instalação de processo em conjunto com o Gerente de Operações.
+	
+Controlar a planta de processo, ao iniciar e encerrar as operações.
+	
+Acompanhar a manutenção preventiva de processo e sistemas de utilidades relevantes.
+	
+Participar do desenvolvimento de procedimentos e instruções permanentes para o departamento de Operações.
+	
+Garantir que os requisitos regulamentares e de classe são respeitados.
+	
+Participar de planejamento, pré-comissionamento e comissionamento dos trabalhos.
+	
+Verificar o estoque de consumíveis embarcados, reportando uso e necessidades relevantes ao gerente de Operações.
+	
+Colaborar com Gerentes de Operações e demais e outros chefes de departamento para o planejamento de atividades de manutenção e operação.
+
+Prover relatórios conforme solicitação do Gerente de Operações.
+
+Participar da investigação de acidentes e incidentes. Verificar se o sistema de autorização de trabalho é controlado e respeitado como por exigências do sistema; mantendo a documentação adequada.
+	
+Fazer da segurança e qualidade sua prioridade número 1, apoiando todas as políticas de QSMS da Cetco Do Brasil tanto onshore quanto offshore.
+
+Zelar pelo cumprir dos procedimentos de qualidade, segurança, saúde e meio ambiente, de acordo com o SGI – Sistema de Gestão Integrada e em conformidade com as normas ISO 9001, ISO 14001 e OHSAS 18001.
+
+Executar outras atividades, desde que de mesma natureza e de equivalentes graus de responsabilidade e complexidade, sempre que solicitado a intervir.
+" ? 0 0 0 0 no 0 ? 7 ? 19 08/02/13 0 yes no 0 ? ? ? "I" no no no "nenhum" 0 "nenhum" 0 yes 0 0 no "" "" 0 0 yes "" "" "342610" "" 0 0 0 yes no 0 413188 0 0 0 no 0 0 "" 0 2014-07-12T16:51:50.830 "" "" "" "" "NEFET" "" 0 1 1 1
+2559 20 "COORDENADOR DE OPERAÇÕES OFFSHORE" "COORDENADOR DE OPERAÇÕES OFFSHORE" "Descrição Sumária:
+Coordenação dos serviços; planejamento de trabalhos; exercer liderança e formação de equipes, acompanhamento de trabalhos.
+
+Descrição Detalhada:
+Controlar operações diáriamente, para garantir o andamento seguro e eficiente de todas as das operações, reportando resultados ao Gerente de Operações. 
+	
+Responsável pela operação de monitoramento de condição, e solução de problemas de instalação de processo em conjunto com o Gerente de Operações.
+	
+Controlar a planta de processo, ao iniciar e encerrar as operações.
+	
+Acompanhar a manutenção preventiva de processo e sistemas de utilidades relevantes.
+	
+Participar do desenvolvimento de procedimentos e instruções permanentes para o departamento de Operações.
+	
+Garantir que os requisitos regulamentares e de classe são respeitados.
+	
+Participar de planejamento, pré-comissionamento e comissionamento dos trabalhos.
+	
+Verificar o estoque de consumíveis embarcados, reportando uso e necessidades relevantes ao gerente de Operações.
+	
+Colaborar com Gerentes de Operações e demais e outros chefes de departamento para o planejamento de atividades de manutenção e operação.
+
+Prover relatórios conforme solicitação do Gerente de Operações.
+
+Participar da investigação de acidentes e incidentes. Verificar se o sistema de autorização de trabalho é controlado e respeitado como por exigências do sistema; mantendo a documentação adequada.
+	
+Fazer da segurança e qualidade sua prioridade número 1, apoiando todas as políticas de QSMS da Cetco Do Brasil tanto onshore quanto offshore.
+
+Zelar pelo cumprir dos procedimentos de qualidade, segurança, saúde e meio ambiente, de acordo com o SGI – Sistema de Gestão Integrada e em conformidade com as normas ISO 9001, ISO 14001 e OHSAS 18001.
+
+Executar outras atividades, desde que de mesma natureza e de equivalentes graus de responsabilidade e complexidade, sempre que solicitado a intervir. " ? 0 0 0 0 no 0 ? 7 ? 20 08/02/13 0 yes no 0 ? ? ? "I" no no no "NENHUM" 0 "NENHUM" 0 no 0 0 no "" "" 0 0 yes "" "" "342610" "" 0 0 0 yes no 0 413188 0 0 0 no 0 0 "" 6 2014-07-12T16:51:50.830 "" "" "" "" "NEFET" "" 0 1 1 1
+2559 21 "COORDENADOR DE SUPRIMENTOS" "COORDENADOR DE SUPRIMENTOS" "" ? 0 0 0 0 no 0 ? 0 ? 21 08/02/13 0 yes no 0 ? ? ? "" no no no "NENHUM" 0 "NENHUM" 0 no 0 0 no "" "" 0 0 yes "" "" "142410" "" 0 0 0 yes no 0 413188 0 0 0 no 0 0 "" 6 2014-07-12T16:51:50.830 "" "" "" "" "NEFET" "" 0 1 1 1
+2559 22 "DIRETOR FINANCEIRO AMERICA DO SUL" "DIRETOR FINANCEIRO AMERICA DO SUL" "Descrição Sumária:
+Dirigem o fluxo financeiro da empresa; implementam o orçamento empresarial e administram recursos humanos. Controlam patrimônio, suprimentos e logística e supervisionam serviços complementares. Coordenam serviços de contabilidade e controladoria e elaboram planejamento da empresa.
+
+Descrição Detalhada:
+Gerenciar o fluxo financeiro e comercial da empresa analisando contas a pagar e receber, negociar com fornecedores e clientes, identificar alternativas de financiamento e aplicações, efetuar ajustes no fluxo de caixa, acompanhar os índices, negociar as operações bancárias avaliando risco de crédito; identificar as alternativas de políticas fiscais e tributária, acompanhar as operações do mercado financeiro, de câmbio e mercado de capitais.
+
+Definir critérios orçamentários estabelecendo parâmetros sub orçamentários. Coordenar a elaboração dos sub orçamentos por área consolidando os orçamentos, acompanhamento da execução orçamentária implementando ações corretivas elaborando relatórios gerenciais.
+
+Controlar o patrimônio, suprimentos e logística definindo política de compras, armazenagem; estruturando processos de logística, autorização de compras, acompanhar o processo de padronização de materiais, supervisionando os serviços de manutenção, novos projetos, patrimônio, transporte.
+
+Coordenação dos serviços de contabilidade e controladoria analisando relatórios contábeis, balancetes, balanço anual; acompanhar a legislação tributária e fiscal.
+
+Coordenar a auditoria interna e informações cadastrais da empresa monitorando indicadores contábeis, econômicos e financeiros propondo critérios de distribuição de resultados. Quando necessário contratar auditoria externa.
+
+Acompanhar o planejamento da empresa participando da elaboração do plano de ação promovendo estudos e análise econômico, financeira.
+
+Definir estratégias de ação definindo os objetivos e metas além da estratégia de ação.
+
+Executar outras atividades, desde que de mesma natureza e de equivalentes graus de responsabilidade e complexidade, sempre que solicitado a intervir.
+
+Fazer da segurança e qualidade sua prioridade número 1, apoiando todas as políticas de QSMS da Cetco do Brasill.
+
+Atender a Política, Objetivos e Metas de QSMS da organização
+
+Zelar pelo cumprir dos procedimentos de qualidade, segurança, saúde e meio ambiente, de acordo com o SGI – Sistema de Gestão Integrada e em conformidade com as normas ISO 9001, ISO 14001 e OHSAS 18001.
+" ? 0 0 0 0 no 0 ? 9 ? 22 08/02/13 0 yes no 0 ? ? ? "I" no no no "NENHUM" 0 "NENHUM" 0 no 0 0 no "" "" 0 0 yes "" "" "123115" "" 0 0 0 yes no 0 413188 0 0 0 no 0 0 "" 6 2014-07-12T16:51:50.830 "" "" "" "" "NEFET" "" 0 1 1 1
+2559 23 "ENGENHEIRO DE PROCESSOS JR" "ENGENHEIRO DE PROCESSOS JR" "Acompanhamento de projetos, coordenação, planejamento e execução de todas as atividades da área de projetos incluindo elaboração de orçamentos, contratações para fabricação e cronograma dos projetos além de melhoria de questões técnicas da base.
+Project monitoring, coordination, planning and execution of all activities of the project area including budgeting, contracts to manufacture and schedule of projects besides improving the technical basis
+4.	Descrição Detalhada / Detailed Description:
+Controlar perdas de processos, produtos e serviços, inspecionando o funcionamento, identificando perdas, analisando e determinando as causas. Elaborando plano de reaproveitamento de perdas.
+Controlling losses of processes, products and services, overseeing the operation, losses identifying, analyzing and determining the causes. Elaborating plan reuse of losses.
+
+Estabelecer plano de ações preventivas e corretivas, medindo parâmetros de processos, produtos e serviços e ajustando processos e serviços.
+Establish plan for preventive and corrective actions, measuring parameters of processes, products and services and adjusting processes and services.
+
+Avaliar eficácia de ajustes, padronizando sistemas e operações, auditorando processos, produtos e serviços, e acompanho implementação do plano de ação preventiva e corretiva.
+Evaluate effectiveness of adjustments, standardizing systems and operations auditorando processes, products and services, and follow the implementation plan preventive and corrective action.
+
+Analisar projetos, coletando e atualizando dados de processo, criando banco de dados de processos e projetos, processando e interpretando dados de registro.
+Analyze projects, collecting and updating process data, creating database processes and projects, processing and interpreting data record.
+
+Implantar ferramentas de controle de qualidade para monitoramento de desempenho de processos.
+Implement quality control tools for performance monitoring processes.
+
+Propor adequação de instalações, métodos e processos e sistemas de segurança.
+Propose adequacy of facilities, methods and processes and safety systems.
+
+Planejar empreendimentos e atividades produtivas, definindo objetivos de trabalho, fixando metas, definindo métodos e etapas de produção. E elaborando estudo técnico e econômico de empreendimentos de trabalho e elaborando cronograma físico e financeiro.
+Plan projects and production activities, setting goals, setting targets, defining steps and methods of production. And developing a technical and economic developments of work and developing physical and financial schedule.
+
+Emitir documentação técnica, elaborando relatórios, emitindo laudos e pareceres técnicos, divulgando resultados e planos de trabalho, e documentando a memória técnica de métodos, processos e produtos.
+Send technical documentation, writing reports, sending reports and technical advice, disseminating results and work plans, and documenting the technical memory methods, processes and products.
+
+Emitir laudos periciais e acompanhar perícia técnica quando solicitado.
+Issue expert reports and monitor technical expertise when requested
+
+Ter a segurança como prioridade número 1 tanto onshore quanto offshore. 
+To have safety as number 1 priority both onshore and offshore.
+
+
