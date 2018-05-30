@@ -146,5 +146,52 @@ WHERE EXISTS (SELECT Num_Matricula FROM TAB_Empregado WHERE Idf_holerite = tab_h
 
 -----------------------------------------------------------------------------------------------------------
 
+ex curso sql
 
+--inserindo registros
+
+INSERT INTO religiao (Religiao, Nme_Religiao)
+VALUES (1, 'cristao');
+
+INSERT INTO religiao (Religiao, Nme_Religiao)
+VALUES (2, 'catolico');
+
+INSERT INTO raca (Raca, Nme_Raca)
+VALUES (1, 'branco');
+
+INSERT INTO raca (Raca, Nme_Raca)
+VALUES (1, 'amarelo');
+
+INSERT INTO nacionalidade ( Nacionalidade , Nme_Nacionalidade)
+VALUES (1, 'brasileiro');
+
+INSERT INTO nacionalidade ( Nacionalidade , Nme_Nacionalidade)
+VALUES (2, 'americano');
+
+INSERT INTO sexo ( Sexo , Des_Sexo )
+VALUES (1, 'masculino');
+
+INSERT INTO sexo ( Sexo , Des_Sexo)
+VALUES (2, 'feminino');
+
+INSERT INTO pessoa ( Nome, CPF,Altura,Peso,Email,Religiao,Raca,Nacionalidade,Sexo,DtaNascimento)
+VALUES ('godofredo', 12011005090, NULL, NULL, NULL, 1, 1, 1, 1, '2000-05-22 00:00:00')
+
+INSERT INTO pessoa ( Nome, CPF,Altura,Peso,Email,Religiao,Raca,Nacionalidade,Sexo,DtaNascimento)
+VALUES ('alfredo', 11011005050, NULL, NULL, NULL, 1, 1, 1, 1, '2000-04-23 00:00:00')
+
+INSERT INTO pessoa ( Nome, CPF,Altura,Peso,Email,Religiao,Raca,Nacionalidade,Sexo,DtaNascimento)
+VALUES ('frederico', 12012005050, NULL, NULL, NULL, 2, 2, 1, 1, '2000-04-20 00:00:00')
+
+INSERT INTO pessoa ( Nome, CPF,Altura,Peso,Email,Religiao,Raca,Nacionalidade,Sexo,DtaNascimento)
+VALUES ('fred', 10011005050, NULL, NULL, NULL, 2, 1, 1, 1, '2000-04-02 00:00:00')
+
+INSERT INTO pessoa ( Nome, CPF,Altura,Peso,Email,Religiao,Raca,Nacionalidade,Sexo,DtaNascimento)
+VALUES ('alfreda', 11011036050, NULL, NULL, NULL, 1, 2, 1, 2, '2000-10-24 00:00:00')
+
+-- mostrando o nome e a data de nascimento das pessoas que nasceram no mes de abril do ano 2000
+
+SELECT nome, CONVERT(DATE,p.DtaNascimento)
+FROM Pessoa p
+WHERE DtaNascimento BETWEEN '2000-04-01' AND '2000-04-31'
 
