@@ -1,0 +1,95 @@
+CREATE TABLE [dbo].[Medico]
+(
+  CRM NUMERIC(9) PRIMARY KEY NOT NULL
+  ,Nome VARCHAR(50) NOT NULL
+)
+
+CREATE TABLE [dbo].[Paciente]
+(
+    CPF NUMERIC(11) PRIMARY KEY NOT NULL
+	,Nome VARCHAR(50) NOT NULL
+	,Telefone VARCHAR(11) NOT NULL
+	,Email VARCHAR(100) 
+	,cidade VARCHAR(30) NOT NULL
+)
+
+CREATE TABLE [dbo].[Consulta]
+(
+    DataHora DATETIME PRIMARY KEY NOT NULL
+	,Valor MONEY NOT NULL
+	,CPF NUMERIC(11) FOREIGN KEY
+	 REFERENCES dbo.Paciente(CPF)
+	,CRM NUMERIC(9) FOREIGN KEY
+	 REFERENCES dbo.Medico(CRM)
+	
+)
+
+--*************************************************************************************
+
+CREATE PROCEDURE [dbo].[sp_CadastraMedico]
+    
+	@CRM NUMERIC(9)
+	,@Nome VARCHAR(50)
+
+AS BEGIN 
+
+INSERT INTO dbo.Medico
+(CRM, Nome)
+VALUES
+(@CRM, @Nome)
+
+END
+
+--*********************************************************************************
+
+CREATE PROCEDURE [dbo].[sp_CadastraPaciente]
+    
+	@CPF NUMERIC(11) 
+	,@Nome VARCHAR(50)
+	,@Telefone VARCHAR(11) 
+	,@Email VARCHAR(100) 
+	,@cidade VARCHAR(30) 
+
+AS BEGIN 
+
+INSERT INTO dbo.Paciente
+(
+    CPF,
+    Nome,
+    Telefone,
+    Email,
+    cidade
+)
+VALUES
+(@CPF ,@Nome ,@Telefone ,@Email ,@cidade )
+
+END
+
+
+--*******************************************************************************
+
+
+
+CREATE PROCEDURE [dbo].[sp_RegistraConsulta]
+    
+	 @DataHora DATETIME 
+	,@Valor MONEY 
+	,@CPF NUMERIC(11) 
+	,@CRM NUMERIC(9) 
+
+AS BEGIN 
+
+INSERT INTO dbo.Consulta
+(
+    DataHora,
+    Valor,
+    CPF,
+    CRM
+)
+VALUES
+( @DataHora ,@Valor ,@CPF ,@CRM  )
+
+END
+
+  
+  --******************************************************************************  
