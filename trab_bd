@@ -93,3 +93,102 @@ END
 
   
   --******************************************************************************  
+
+ CREATE PROCEDURE [dbo].[sp_AgendaConsulta]
+    
+	 @DataHora DATETIME 
+	,@datahora2 DATETIME = GETDATE
+	,@Valor MONEY 
+	,@CPF NUMERIC(11) 
+
+AS BEGIN 
+
+INSERT INTO dbo.Consulta
+(
+    DataHora,
+    Valor,
+    CPF
+)
+VALUES
+
+( DATEDIFF(YEAR, @DataHora2, GETDATE() + 100) ,@Valor ,@CPF )
+
+END
+
+--*********************************************************************************
+
+CREATE PROCEDURE [dbo].[sp_ExpurgaConsulta]
+    
+	 @CPF NUMERIC(11) 
+	,@DataHora DATETIME 
+	,@datahora2 DATETIME = GETDATE
+
+AS BEGIN 
+
+DELETE FROM dbo.Consulta
+WHERE CPF = @cpf
+AND 
+DataHora < DATEDIFF(YEAR, @DataHora, GETDATE() - 1)
+
+END
+
+--***********************************************************************************
+
+CREATE PROCEDURE [dbo].[sp_PacientesCidade]
+    
+	 @cidade VARCHAR(30) 
+
+AS BEGIN 
+
+SELECT * FROM dbo.Paciente
+WHERE cidade LIKE '@cidade'
+ORDER BY Nome DESC
+
+END
+
+--***************************************************************************************
+
+CREATE PROCEDURE [dbo].[sp_PacientesCidade]
+    
+	 @cidade VARCHAR(30) 
+
+AS BEGIN 
+
+SELECT * FROM dbo.Paciente
+WHERE cidade LIKE '@cidade'
+ORDER BY Nome DESC
+
+END
+
+--*****************************************************************************
+
+CREATE PROCEDURE [dbo].[sp_PacientesSemConsulta]
+    
+	 @cidade VARCHAR(30) 
+
+AS BEGIN 
+
+SELECT * FROM dbo.Paciente
+JOIN dbo.Consulta ON Consulta.CPF = Paciente.CPF
+WHERE DataHora IS NULL
+ORDER BY Nome DESC
+
+END
+
+--*****************************************************************************
+
+CREATE PROCEDURE [dbo].[sp_ValorEmConsulta ]
+    
+	 @cidade VARCHAR(30) 
+	,@nome varchar(50)
+
+AS BEGIN 
+
+SELECT Nome, Medico.CRM, SUM(Valor) FROM dbo.Medico
+JOIN dbo.Consulta ON Consulta.CRM = Medico.CRM
+WHERE Nome LIKE '@nome'
+ORDER BY Nome DESC
+
+END
+
+--****************************************************************************
