@@ -1,3 +1,5 @@
+--********************************************************************************
+
 CREATE TABLE [dbo].[Medico]
 (
   CRM NUMERIC(9) PRIMARY KEY NOT NULL
@@ -146,25 +148,10 @@ ORDER BY Nome DESC
 
 END
 
---***************************************************************************************
-
-CREATE PROCEDURE [dbo].[sp_PacientesCidade]
-    
-	 @cidade VARCHAR(30) 
-
-AS BEGIN 
-
-SELECT * FROM dbo.Paciente
-WHERE cidade LIKE '@cidade'
-ORDER BY Nome DESC
-
-END
 
 --*****************************************************************************
 
-CREATE PROCEDURE [dbo].[sp_PacientesSemConsulta]
-    
-	 @cidade VARCHAR(30) 
+CREATE PROCEDURE [dbo].[sp_PacientesSemConsulta]  
 
 AS BEGIN 
 
@@ -179,8 +166,7 @@ END
 
 CREATE PROCEDURE [dbo].[sp_ValorEmConsulta ]
     
-	 @cidade VARCHAR(30) 
-	,@nome varchar(50)
+	@nome varchar(50)
 
 AS BEGIN 
 
@@ -191,4 +177,86 @@ ORDER BY Nome DESC
 
 END
 
---****************************************************************************
+
+--*********************************************************************************
+
+EXEC dbo.sp_CadastraMedico @CRM = 123456789, -- numeric(9)
+                           @Nome = 'Carlos Oliveira Pinto'   -- varchar(50)
+
+EXEC dbo.sp_CadastraMedico @CRM = 987654321, -- numeric(9)
+                           @Nome = 'Junior Dutra'   -- varchar(50)
+
+--*********************************************************************************
+
+EXEC dbo.sp_CadastraPaciente @CPF = 12345678912,    -- numeric(11)
+                             @Nome = 'Joaquim José da Silva Xavier',     -- varchar(50)
+                             @Telefone = '41988228822', -- varchar(11)
+                             @Email = 'JJSX@uol.com',    -- varchar(100)
+                             @cidade = 'Ritápolis'    -- varchar(30)
+
+EXEC dbo.sp_CadastraPaciente @CPF = 98765432198,    -- numeric(11)
+							 @Nome = 'Dalton Trevisan',     -- varchar(50)
+							 @Telefone = '41997876454', -- varchar(11)
+							 @Email = 'oescritor@bol.com',    -- varchar(100)
+							 @cidade = 'Curitiba'    -- varchar(30)
+
+EXEC dbo.sp_CadastraPaciente @CPF = 14725836914,    -- numeric(11)
+							 @Nome = 'Luiz Inácio Lula da Silva',     -- varchar(50)
+							 @Telefone = '41997876050', -- varchar(11)
+							 @Email = 'preso@bol.com',    -- varchar(100)
+							 @cidade = 'Curitiba'    -- varchar(30)
+
+--*********************************************************************************
+
+EXEC dbo.sp_RegistraConsulta @DataHora = '2018-06-12 20:03:38', -- datetime
+                             @Valor = 100.00,                     -- money
+                             @CPF = 12345678912,                       -- numeric(11)
+                             @CRM = 123456789                       -- numeric(9)
+
+EXEC dbo.sp_RegistraConsulta @DataHora = '2018-06-13 20:03:38', -- datetime
+                             @Valor = 100.00,                     -- money
+                             @CPF = 98765432198,                       -- numeric(11)
+                             @CRM = 987654321                       -- numeric(9)
+
+--*********************************************************************************		
+
+ EXEC dbo.sp_AgendaConsulta @DataHora = '2018-06-14 20:16:46', -- datetime
+                            @datahora2 = GETDATE,              -- datetime
+                            @Valor = 80.00,                     -- money
+                            @CPF = 14725836914                        -- numeric(11)
+
+EXEC dbo.sp_AgendaConsulta @DataHora = '2018-06-15 20:16:46', -- datetime
+                            @datahora2 = GETDATE,              -- datetime
+                            @Valor = 90.00,                     -- money
+                            @CPF = 12345678912                        -- numeric(11)
+ 
+ EXEC dbo.sp_AgendaConsulta @DataHora = '2018-06-16 20:16:46', -- datetime
+                            @datahora2 = GETDATE,              -- datetime
+                            @Valor = 95.00,                     -- money
+                            @CPF = 98765432198                        -- numeric(11)
+							
+--**********************************************************************************		
+
+EXEC dbo.sp_ExpurgaConsulta @CPF = 12345678912,                       -- numeric(11)
+                            @DataHora = '2018-06-12 20:30:47', -- datetime
+                            @datahora2 = GETDATE               -- datetime
+
+EXEC dbo.sp_ExpurgaConsulta @CPF = 987654321,                       -- numeric(11)
+                            @DataHora = '2018-06-13 20:30:47', -- datetime
+                            @datahora2 = GETDATE               -- datetime
+
+--**********************************************************************************
+
+EXEC dbo.sp_PacientesCidade @cidade = 'Curitiba' -- varchar(30)
+	
+--**********************************************************************************
+
+EXEC dbo.sp_PacientesSemConsulta 
+
+--**********************************************************************************
+
+EXEC dbo.[sp_ValorEmConsulta ] @nome = 'Junior Dutra' -- varchar(50)
+
+--**********************************************************************************
+
+				 
